@@ -15,6 +15,7 @@ func main() {
 	var text = "John"
 	fmt.Println("Before:", text, age)
 
+	// Pass in age and text as param to func args
 	update(&age, &text)
 
 	fmt.Println("After:", text, age)
