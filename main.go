@@ -1,5 +1,6 @@
 package main
 
+//Import the fmt package
 import "fmt"
 
 // a is a pointer to the same address (which resolves to the actual value 20) that the variable age already points to.
